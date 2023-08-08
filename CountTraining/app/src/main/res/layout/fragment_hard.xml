@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".fragments.EasyFragment"
+    android:background="@drawable/gradient"
+    android:padding="50dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 1/10"
+        android:background="@drawable/edit_texts"
+        style="@style/Main_Text"
+        android:textSize="30sp"
+        android:id="@+id/hard_question_number"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2+2=5000?"
+        android:textSize="26sp"
+        android:background="@drawable/edit_texts"
+        style="@style/Main_Text"
+        android:id="@+id/hard_question_text"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Main_Text"
+        android:singleLine="true"
+        android:hint="Your answer"
+        android:background="@drawable/edit_texts"
+        android:id="@+id/hard_ans"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="15dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        style="@style/Button"
+        android:text="Submit"
+        android:id="@+id/hard_submit_btn"/>
+
+</LinearLayout>

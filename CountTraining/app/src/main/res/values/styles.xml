@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Main_Text">
+        <item name="android:fontFamily">@font/main_font</item>
+        <item name="android:textColorHint">@color/third</item>
+        <item name="android:textColor">@color/third</item>
+    </style>
+    <style name="Button">
+        <item name="android:fontFamily">@font/button_font</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/third</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

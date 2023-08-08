@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".fragments.EasyFragment"
+    android:background="@drawable/gradient"
+    android:padding="30dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 1/5"
+        android:background="@drawable/edit_texts"
+        style="@style/Main_Text"
+        android:textSize="30sp"
+        android:id="@+id/easy_question_number"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2+2=5000?"
+        android:textSize="26sp"
+        android:background="@drawable/edit_texts"
+        style="@style/Main_Text"
+        android:id="@+id/easy_question_text"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Button"
+        android:text="Answer 1"
+        android:id="@+id/easy_ans1"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Button"
+        android:text="Answer 2"
+        android:id="@+id/easy_ans2"/>
+
+</LinearLayout>

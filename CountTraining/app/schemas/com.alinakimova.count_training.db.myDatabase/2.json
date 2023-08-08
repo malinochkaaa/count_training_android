@@ -1,0 +1,76 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "a4bc23ff49d6b98c493ac823d7d269ff",
+    "entities": [
+      {
+        "tableName": "Question",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `txt` TEXT, `ans1` TEXT, `ans2` TEXT, `ans3` TEXT, `ans4` TEXT, `right` TEXT, `lvl` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "txt",
+            "columnName": "txt",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ans1",
+            "columnName": "ans1",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ans2",
+            "columnName": "ans2",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ans3",
+            "columnName": "ans3",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ans4",
+            "columnName": "ans4",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "right",
+            "columnName": "right",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "lvl",
+            "columnName": "lvl",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'a4bc23ff49d6b98c493ac823d7d269ff')"
+    ]
+  }
+}

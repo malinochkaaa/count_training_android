@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "546017613136",
+    "project_id": "count-training",
+    "storage_bucket": "count-training.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546017613136:android:6ae9f3f046a4a2cfcf4855",
+        "android_client_info": {
+          "package_name": "com.alinakimova.count_training"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546017613136-d13mocnctbov6rmu3nj37st98l7bm1ge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXxgFy1uNGU7DxEuZYhGaoRAStb7o5tGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546017613136-d13mocnctbov6rmu3nj37st98l7bm1ge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

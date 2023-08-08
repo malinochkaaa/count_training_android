@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "txt": "love pizza",
+    "ans1": "yes",
+    "ans2": "of course",
+    "ans3": "absolutely",
+    "ans4": "probably",
+    "right": 2,
+    "lvl": 3
+  }
+]
